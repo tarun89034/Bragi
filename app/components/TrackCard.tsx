@@ -30,7 +30,10 @@ export default function TrackCard({ track }: { track: Track }) {
   }
 
   return (
-    <article className="group overflow-hidden rounded-md border border-neutral-200/70 bg-white transition-shadow hover:shadow-md dark:border-neutral-700 dark:bg-neutral-800">
+    <article
+      data-testid="track-card"
+      className="group overflow-hidden rounded-md border border-neutral-200/70 bg-white transition-shadow hover:shadow-md dark:border-neutral-700 dark:bg-neutral-800"
+    >
       <div className="relative aspect-square w-full overflow-hidden">
         <Image
           src={track.coverUrl}
