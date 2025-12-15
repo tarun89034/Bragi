@@ -1,0 +1,7 @@
+npm warn Unknown project config "node-linker". This will stop working in the next major version of npm.
+npm warn Unknown project config "strictDepBuilds". This will stop working in the next major version of npm.
+
+> nextjs-base-starter@0.1.0 dev
+> NEXT_DISABLE_ESLINT=1 NEXT_DISABLE_TYPECHECK=1 next dev --turbopack
+
+sh: 1: next: not found
